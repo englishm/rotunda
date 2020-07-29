@@ -88,11 +88,3 @@ impl IntoRawFd for Iface {
         self.fd.into_raw_fd()
     }
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
